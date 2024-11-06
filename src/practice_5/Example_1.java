@@ -14,7 +14,7 @@ public class Example_1
         ratio = numerator / denominator;
         System.out.println("The answer is: "+ratio);
 
-        System.out.println("Done."); // Don't move this line
+        System.out.println("Done.");
     }
 }
 
