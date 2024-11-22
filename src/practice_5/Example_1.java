@@ -8,13 +8,17 @@ public class Example_1
 
 
         numerator   = 5;
-        denominator = 2;
+        denominator = 0;
+
+        try {
+            ratio = numerator / denominator;
+            System.out.println("The answer is: " + ratio);
+        } catch (ArithmeticException e) {
+            System.out.println("Divide by 0.");
+            e.printStackTrace();
+        }
 
 
-        ratio = numerator / denominator;
-        System.out.println("The answer is: "+ratio);
-
-        System.out.println("Done.");
     }
 }
 
